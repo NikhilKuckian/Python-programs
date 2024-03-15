@@ -1,5 +1,6 @@
 import os
 print("Welcome to Robo Speaker - Text to Speech")
+os.system("say -v {voice} Welcome to Robo Speaker - Text to Speech")
 while True:
     x=input("What do you want me to say?")
     if x == "quit":
